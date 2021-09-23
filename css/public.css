@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.woff2?t=1627359551361') format('woff2'),
+       url('../fonts/iconfont.woff?t=1627359551361') format('woff'),
+       url('../fonts/iconfont.ttf?t=1627359551361') format('truetype');
+}
+
+.w1160 {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz22 {
+  font-size: 22px;
+}
+
+.fz28 {
+  font-size: 28px;
+}
+
+.lh24 {
+  line-height: 24px;
+}
+
+.c-fff {
+  color: #fff;
+}
+
+.c-da {
+  color: #dadada;
+}
+
+.c-d2 {
+  color: #d2d2d2;
+}
+
+.c-666 {
+  color: #666;
+}
+
+.pl14 {
+  padding-left: 14px;
+}
+
+.icon {
+  position: relative;
+}
+
+.icon:after {
+  content: "";
+  font-family: "iconfont" !important;
+  color: #c1c1c1;
+  font-size: 16px;
+}
+
+.icon-arrow-down::after {
+  content: "\e648";
+  position: absolute;
+  top: 0;
+  right: -12px;
+  transition: .2s;
+}
+
+.icon-arrow-right::after {
+  content: "\e61d";
+  position: absolute;
+  top: 2px;
+  right: 24px;
+  color: #ff7200;
+}
+
+.icon-swiper-prev::after {
+  content: "\e65d";
+  position: absolute;
+  top: 4px;
+  left: 18px;
+  color: #fff;
+}
+
+.icon-swiper-next::after {
+  content: "\e65d";
+  position: absolute;
+  top: 4px;
+  left: 18px;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center; 
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.visib-hid {
+  text-indent: -9999;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+
+.pr10 {
+  padding-right: 10px;
+}
